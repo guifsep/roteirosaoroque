@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Roteiro São Roque</string>
+    <string name="title_activity_act_comofunciona">Como Funciona?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_act_quemsomos">Quem Somos</string>
+    <string name="title_activity_pergunta1">Pergunta 1</string>
+    <string name="title_activity_pergunta2">Pergunta 2</string>
+    <string name="title_activity_perfil_jovem">Perfil Jovem</string>
+    <string name="title_activity_perfil_familia">Perfil Família</string>
+    <string name="title_activity_perfil_melhor_idade">Perfil Melhor Idade</string>
+    <string name="title_activity_roteiro_jovem">Roteiro Jovem</string>
+    <string name="title_activity_roteiro_familia">Roteiro Família</string>
+    <string name="title_activity_roteiro_melhor_idade">Roteiro Melhor Idade</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Como funciona?</item>
+        <item>Quem Somos</item>
+    </string-array>
+</resources>

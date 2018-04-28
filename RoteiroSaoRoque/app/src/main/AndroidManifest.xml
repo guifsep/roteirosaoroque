@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.windows.roteirosaoroque">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".act_main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".act_comofunciona"
+            android:label="@string/title_activity_act_comofunciona"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".act_quemsomos"
+            android:label="@string/title_activity_act_quemsomos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pergunta1"
+            android:label="@string/title_activity_pergunta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DezoitoTrinta"
+            android:label="@string/title_activity_pergunta2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TrintaSessenta"
+            android:label="@string/title_activity_pergunta2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SessentaMais"
+            android:label="@string/title_activity_pergunta2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PerfilJovem"
+            android:label="@string/title_activity_perfil_jovem"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PerfilFamilia"
+            android:label="@string/title_activity_perfil_familia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PerfilMelhorIdade"
+            android:label="@string/title_activity_perfil_melhor_idade"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RoteiroJovem"
+            android:label="@string/title_activity_roteiro_jovem"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RoteiroFamilia"
+            android:label="@string/title_activity_roteiro_familia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RoteiroMelhorIdade"
+            android:label="@string/title_activity_roteiro_melhor_idade"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
